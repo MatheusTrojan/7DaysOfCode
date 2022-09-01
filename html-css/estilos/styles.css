@@ -1,5 +1,6 @@
 @import url("../estilos/cabecalho.css");
 @import url("../estilos/sobre.css");
+@import url("../estilos/metricas.css");
 
 :root {
     --primaria: #8E2424;
@@ -8,6 +9,10 @@
     --branco: #FFFFFF;
 
     --fonte-principal: 'Inter'
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
