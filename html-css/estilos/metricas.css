@@ -1,13 +1,14 @@
 .metricas-container {
-    box-sizing: border-box;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    max-width: 100vw;
-    margin: 0 5em;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+    padding: 0 8rem;
 }
 
 .metricas {
-    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .metricas__numero {
