@@ -1,33 +1,37 @@
-.talentos {
-    text-align: center;
-    margin: 7em 0;
+.vagas {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
 }
 
-.talentos__vagas {
-    color: var(--primaria);
-    background-color: var(--cinza-claro);
-    border-radius: 1rem;
-    padding: .5rem 1rem;
-    font-size: 14px; 
+.vagas__setor {
+    margin-top: 2em;
 }
 
-.talentos__titulo {
+.vagas__setor--titulo {
     color: var(--cinza-escuro);
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: -0.02em;
-    margin: 0.6em 0;
-}
-
-.talentos__texto {
     font-size: 20px;
-    font-weight: 400;
     line-height: 30px;
 }
 
-.talentos__imagem {
-    margin-top: 2rem;
-    width: 80%;
+.vaga {
+    border: 1px solid var(--cinza-claro);
+    border-radius: 1em;
+    margin: 1.5em 0 1em 0;
+    padding: 1.5em 0 1.5em 1em;
 }
 
+.vaga__titulo {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.vaga__info {
+    padding: 1.5em 0 0 0;
+}
+
+.vaga__info span {
+    margin-right: 1.5em;
+}

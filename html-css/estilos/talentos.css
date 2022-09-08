@@ -1,0 +1,33 @@
+.talentos {
+    text-align: center;
+    margin: 7em 0 1em 0;
+}
+
+.talentos__vagas {
+    color: var(--primaria);
+    background-color: var(--cinza-claro);
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: 14px; 
+}
+
+.talentos__titulo {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    margin: 0.6em 0;
+}
+
+.talentos__texto {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.talentos__imagem {
+    margin-top: 2rem;
+    width: 80%;
+}
+
