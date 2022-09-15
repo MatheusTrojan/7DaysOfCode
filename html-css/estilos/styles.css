@@ -3,12 +3,14 @@
 @import url("../estilos/metricas.css");
 @import url("../estilos/talentos.css");
 @import url("../estilos/vagas.css");
+@import url("../estilos/depoimentos.css");
+@import url("../estilos/rodape.css");
 
 :root {
     --primaria: #8E2424;
     --cinza-escuro: #101828;
     --cinza-medio: #667085;
-    --cinza-claro: rgba(142, 36, 36, 0.05);
+    --cinza-claro: #F9FAFB;
     --branco: #FFFFFF;
 
     --fonte-principal: 'Inter'
